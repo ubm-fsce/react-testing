@@ -1,6 +1,7 @@
 import { saveComment } from 'actions';
 import { SAVE_COMMENT } from 'actions/types';
 
+
 describe('saveComment ', () => {
   it('has the correct type ', () => {
     const action = saveComment();
